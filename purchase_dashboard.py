@@ -10,7 +10,7 @@ st.set_page_config(page_title="IBA - Purchase",
 def get_data_from_excel():
     df_po = pd.read_excel(
         io='Purchase orders_637997872068804066.xlsx',
-        engine='openpyxl',
+#         engine='openpyxl',
         # sheet_name='Processed',
         skiprows=0,
         # usecols='B:AI',
@@ -19,7 +19,7 @@ def get_data_from_excel():
 
     df_pr = pd.read_excel(
         io='Purchase requisitions_637997869601969954.xlsx',
-        engine='openpyxl',
+#         engine='openpyxl',
         # sheet_name='Processed',
         skiprows=0,
         # usecols='B:AI',
