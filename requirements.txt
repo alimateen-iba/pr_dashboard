@@ -1,2 +1,7 @@
-pip install --upgrade pip
-pip install openpyxl
+streamlit==0.85.0
+pandas
+numpy
+altair
+xlrd
+openpyxl
+streamlit_analytics
